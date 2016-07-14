@@ -27,7 +27,7 @@
        }
        curl_close($ch);
        return $result;
-	}
+
 	
 
 	$conn = mysqli_connect("localhost","root","","fcm");
@@ -50,6 +50,6 @@
 	$message_status = send_notification($tokens, $message);
 	echo $message_status;
 
-
+}
 
  ?>
